@@ -18,6 +18,7 @@ import WebDesignDev from "./pages/Service/pages/WebDesignDev/WebDesignDev.jsx";
 import Branding from "./pages/Service/pages/Branding/Branding";
 import GraphicDesign from "./pages/Service/pages/GraphicDesign/GraphicDesign";
 import DigitalMarketing from "./pages/Service/pages/DigitalMarketing/DigitalMarketing";
+import ContactUs from "./pages/Contact/ContactUs.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -72,6 +73,10 @@ const routes = createBrowserRouter([
       {
         path: "blog",
         element: <BlogPage />,
+      },
+      {
+        path: "contact",
+        element: <ContactUs />,
       },
       {
         path: "team",
