@@ -9,10 +9,6 @@ import callIcon from "../../assets/icons/Call.svg";
 import messageIcon from "../../assets/icons/Message.svg";
 
 const ContactUs = () => {
-
-
-    
-
   return (
     <div className="  xxl:mx-auto pt-20 relative">
       <Breadcrumbs currentPage={[{ URL: "", text: "Contact" }]} style="py-8" />
@@ -36,7 +32,7 @@ const ContactUs = () => {
           src={topImg}
           alt="Contact Us Image"
         />
-        <div className="relative z-50 px-4 md:px-16 lg:px-9 xl:px-20 space-y-5 pt-4 pb-20 flex items-center justify-center">
+        <div className="relative z-30 px-4 md:px-16 lg:px-9 xl:px-20 space-y-5 pt-4 pb-20 flex items-center justify-center">
           <div className="h-[70%] flex flex-col justify-between">
             <div>
               <h2 className="text-[#FFBF9D] text-xl pb-7 md:text-2xl">
@@ -52,12 +48,15 @@ const ContactUs = () => {
               <div className="flex gap-3">
                 <img src={locationIcon} alt="Mail Icon" />
 
-                <p>No.82/85, Sthithi Square Complex, Pankaja Mill Road, Coimbatore, Tamil Nadu 641045</p>
+                <p>
+                  No.82/85, Sthithi Square Complex, Pankaja Mill Road,
+                  Coimbatore, Tamil Nadu 641045
+                </p>
               </div>
 
               <div className="flex gap-3">
                 <img src={callIcon} alt="Mail Icon" />
-                <p>+91  95005 65168</p>
+                <p>+91 95005 65168</p>
               </div>
 
               <div className="flex gap-3">
@@ -93,9 +92,7 @@ const ContactUs = () => {
               </div>
 
               <div className="flex items-center justify-between gap-5">
-                <p
-                  className="border-black w-2/12  px-3 py-[10px] border-2 rounded-md "
-                >
+                <p className="border-black w-2/12  px-3 py-[10px] border-2 rounded-md ">
                   + 91
                 </p>
                 <input

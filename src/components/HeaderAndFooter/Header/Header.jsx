@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header className="fixed w-full z-30 ">
+    <header className="fixed w-full z-50 ">
       <Navbar />
     </header>
   );
