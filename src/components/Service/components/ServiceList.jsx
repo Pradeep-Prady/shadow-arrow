@@ -64,7 +64,7 @@ const ServiceList = ({ data }) => {
           />
         ))}
       </ul>
-      {hoveredImage && (
+      {/* {hoveredImage && (
         <motion.img
           src={hoveredImage}
           alt="Hovered Service"
@@ -80,7 +80,7 @@ const ServiceList = ({ data }) => {
             transform: 'translate(-50%, -50%)'
           }}
         />
-      )}
+      )} */}
     </div>
   );
 };
